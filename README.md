@@ -3,7 +3,7 @@
 
 使用方法
 
-```
+```JavaScript
 
         ImageLoading(
                 /*
