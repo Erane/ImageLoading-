@@ -1,4 +1,4 @@
-# imgLoading
+# ImageLoading
 图片预加载
 
 使用方法
