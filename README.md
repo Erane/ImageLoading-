@@ -39,7 +39,7 @@
                     complete : function(time,audios){
                         // 加载完毕
                         /*
-                         * time :   加载音频总耗时 毫秒单位
+                         * time :   加载图片/音频总耗时 毫秒单位
                          * audios : 加载完成音频数组 具体调用方法如 audios[0].obj
                          * */
                         console.log(audios[0]);
