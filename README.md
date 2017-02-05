@@ -24,8 +24,9 @@
                         // 下面是可匹配参数 如果不写取下面的默认值
                         '_type' : 'audio/mpeg',
                         '_preload' : 'auto',
-                        '_loop' : true
-                    }
+                        '_loop' : true,
+                        'cb':function(){} // 回调函数
+                    }
                 ],
                 {
                     loading : function(count,total){
