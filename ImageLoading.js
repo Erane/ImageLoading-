@@ -40,6 +40,7 @@
                 this.obj.preload = options._preload || 'auto';
                 this.obj.loop = options._loop || true;
                 this.obj.src = options.src;
+                this.obj.onloadedmetadata = options.cb || function () {};
             };
             audio_urls.forEach(function(obj,key){
                 _audios[key] = new _audio(obj,key);
