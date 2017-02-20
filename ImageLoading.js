@@ -53,8 +53,6 @@ var ImageLoading = function(img_arr,audio_arr,obj){
         val.obj.addEventListener('loadedmetadata',function(){
             is_ok.push(val.index);
             _obj.loading(is_ok.length,_obj.len);
-            this.className = 'audio';
-            document.body.appendChild(this);
             _audios_is_ok = _audios;
             var self = this;
             this.play();
